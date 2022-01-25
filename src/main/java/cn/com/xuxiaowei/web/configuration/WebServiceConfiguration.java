@@ -30,7 +30,7 @@ public class WebServiceConfiguration {
         // 仅监听 127.0.0.1
         // endpoint.publish("http://127.0.0.1:8081/helloWebService");
         // 监听所有地址
-        endpoint.publish("http://0.0.0.1:8081/helloWebService");
+        endpoint.publish("http://0.0.0.0:8081/helloWebService");
         return endpoint;
     }
 
